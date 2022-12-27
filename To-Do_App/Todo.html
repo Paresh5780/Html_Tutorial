@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./To-Do.css" />
+  </head>
+  <body>
+    <header>
+      <div class="Header_container">
+        <div class="container my-5">
+          <div class="row" id="heading_part">
+            <div class="col-md-8" id="heading">
+              <h1 id="header_title">TO-DO APP</h1>
+            </div>
+            <div class="col-md-4" id="searchbar">
+              <input
+                class="form-control"
+                type="text"
+                id="filter"
+                placeholder="Search To-Dos here"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_content_part">
+        <div class="col-md-5" id="gif">
+          <img
+            src="https://media.tenor.com/NG_03dlh5nMAAAAC/change-clothes-old-man.gif"
+            alt="to-do image"
+          />
+        </div>
+        <div class="col-md-7" id="right_side_form_part">
+          <div id="middle-section" class="for_border">
+            <h2 class="title" id="title_1">Add Your To-dos Here</h2>
+            <form id="addForm" class="mb-3">
+              <input
+                type="text"
+                id="todo"
+                class="form-control mb-4"
+                placeholder="mention your To-Dos"
+              />
+              <button type="submit" class="btn btn-info" id="submit_btn">
+                Submit
+              </button>
+            </form>
+            <h2 class="title" id="todos_heading"><u>To-dos</u></h2>
+            <ul id="todos" class="list-group">
+              <li class="list-group-item d-flex justify-content-between">
+                Todo 1
+                <button class="btn btn-danger btn-sm delete">delete</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script src="./script.js"></script>
+    </header>
+  </body>
+</html>

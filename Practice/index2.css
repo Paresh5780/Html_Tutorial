@@ -1,0 +1,91 @@
+.navbar-1 {
+  margin: 30px 15px;
+  padding: 10px 10px;
+  background-color: rgb(136, 219, 40);
+  color: firebrick;
+}
+.title_of_navbar {
+  justify-content: left;
+  margin: 120px;
+  font-size: x-large;
+}
+#one {
+  margin-left: 400px;
+  color: firebrick;
+}
+#two {
+  margin-left: 30px;
+}
+#three {
+  margin-left: 30px;
+}
+.contents_of_navbar {
+  font-size: larger;
+}
+.heading_of_webpage {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-size: 220%;
+  color: rgb(217, 223, 217);
+  border: 5px solid blue;
+  margin: 5px 11%;
+  background-color: cadetblue;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.categories {
+  display: flex;
+}
+.left_side_categories {
+  justify-content: space-between;
+  margin: 10px 320px;
+}
+.right_side_categories {
+  margin-top: 12px;
+  margin-left: 80px;
+}
+#six {
+  margin-left: 18px;
+}
+#six_1 {
+  margin-left: 12px;
+}
+#seven {
+  margin-left: 39px;
+}
+#seven_1 {
+  margin-left: 30px;
+}
+#seven_2 {
+  margin-left: 46px;
+}
+.end_tag {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 20px;
+  color: crimson;
+}
+.end_tag:hover {
+  color: green;
+}
+#six:hover {
+  background-color: black;
+}
+#seven:hover {
+  background-color: black;
+}
+#six_1:hover {
+  background-color: black;
+}
+#seven_1:hover {
+  background-color: black;
+}
+#seven_2:hover {
+  background-color: black;
+}
+* {
+  background-color: black;
+}

@@ -1,0 +1,90 @@
+#header_title {
+  font-size: 62px;
+  font-family: Arial, Helvetica, sans-serif, Gadget;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(255, 0, 98),
+    #e9830e,
+    rgb(105, 230, 56),
+    #00d5ff,
+    #0af,
+    #0080ff,
+    #05f,
+    #002aff,
+    rgb(175, 235, 13),
+    #46e706,
+    #50f,
+    #8000ff,
+    #a0f,
+    #d400ff,
+    rgb(248, 24, 248),
+    #eb08c5,
+    rgb(115, 255, 0),
+    #ecf00e,
+    rgb(80, 180, 22),
+    #a9ff08f3,
+    rgba(186, 221, 27, 0.952)
+  );
+  animation: animatedBackground_a 20s linear infinite alternate-reverse;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(236, 46, 46, 0);
+  background-clip: text;
+  letter-spacing: 5px;
+}
+#searchbar {
+  padding: 25px;
+}
+#heading {
+  padding: 5px;
+}
+.Header_container {
+  background-color: black;
+  margin: 10px 30px;
+}
+.title {
+  font-style: oblique;
+  font-weight: 10px;
+  font-size: 40px;
+}
+#todos_heading {
+  text-align: center;
+  font-style: normal;
+}
+#submit_btn {
+  display: flex;
+  justify-content: center;
+}
+.main_content_part {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#right_side_form_part {
+  padding: 30px;
+}
+#title_1 {
+  letter-spacing: 8px;
+  font-style: unset;
+  background: linear-gradient(
+    90deg,
+    #0abeeb,
+    #aae613,
+    rgb(211, 106, 106),
+    #d307c2,
+    #ffc524
+  );
+  color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 40px;
+  display: inline-block;
+}
+.for_border {
+  border: #00ad2b solid 5px;
+  padding: 10px 20px;
+}
+header {
+  background-image: url("https://images.unsplash.com/photo-1671299736439-001f7f658a4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+}

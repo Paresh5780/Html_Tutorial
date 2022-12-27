@@ -1,0 +1,25 @@
+.container {
+  margin: 10px 20px;
+  background-color: black;
+}
+.heading {
+  font-size: 400%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: rgb(253, 185, 11);
+  text-align: center;
+  background-color: black;
+  margin: 10px 20px;
+}
+.first_row_images,
+.second_row_images,
+.third_row_images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+}
+
+#one:hover {
+  -webkit-transform: rotate(45deg) scale(1, 1);
+  transform: rotate(45deg) scale(1, 1);
+}

@@ -1,0 +1,57 @@
+.navbar-right-section {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(41, 37, 28);
+  padding: 15px;
+}
+#right-end {
+  text-align: end;
+}
+#Top_Heading {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-style: oblique;
+  color: rgb(66, 3, 35);
+  border: 2.5px solid red;
+  margin: 10px 200px;
+}
+.login-form {
+  color: rgb(105, 160, 160);
+}
+.form_heading {
+  display: flex;
+  justify-content: center;
+  text-shadow: 5px;
+  font-size: xx-large;
+  font-style: normal;
+}
+.login-form {
+  margin: 10px 205px;
+  border: 10px solid pink;
+}
+.input_form_1 {
+  background-color: aliceblue;
+}
+#username {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#Email {
+  display: flex;
+  justify-content: center;
+}
+#Mobile_no {
+  display: flex;
+  justify-content: center;
+}
+.login_button {
+  display: flex;
+  justify-content: center;
+  border: 1.5px solid blue;
+  background-color: rgb(151, 228, 74);
+  color: darkred;
+  margin: 30px 250px;
+}

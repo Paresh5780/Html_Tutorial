@@ -1,0 +1,51 @@
+.iphone_heading,
+.pixel_heading,
+.galaxy_heading,
+.vivo_heading {
+  position: sticky;
+  top: 20%;
+  width: 92%;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: azure;
+  background-color: black;
+  margin: 10px 58px;
+}
+.image {
+  margin: 10px 50px;
+}
+.iphone_x_content,
+.pixel_content,
+.galaxy_content,
+.vivo_content {
+  display: flex;
+  justify-content: left;
+}
+.right_side_specs {
+  margin-top: 50px;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 140%;
+  color: maroon;
+}
+.sub-heading {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: 20px 50px;
+  font-size: xx-large;
+  background-color: darkgoldenrod;
+  color: azure;
+}
+.right_side_specs:hover {
+  color: forestgreen;
+  cursor: col-resize;
+}
+/* .left_side_image:hover {
+  /* -webkit-transform: scale(1.3); */
+/* transform: scale(1.3); */
+/* transform: rotate(180deg);
+  -webkit-transform: rotate(180deg); */
