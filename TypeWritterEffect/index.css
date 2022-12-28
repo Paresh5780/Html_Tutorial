@@ -1,0 +1,13 @@
+.text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 100px;
+  padding: 100px 100px;
+  border: 7px solid black;
+}
+.box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
